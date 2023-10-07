@@ -6,6 +6,101 @@
     android:layout_height="match_parent"
     tools:context=".ArtistUploadActivity">
 
+    <TextView
+
+        android:id="@+id/textViewUploadTitle"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="Upload Artwork"
+
+        android:textSize="24sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_marginStart="16dp"
+
+        android:layout_marginTop="16dp"/>
+
+
+
+    <EditText
+
+        android:id="@+id/editTextArtworkTitle"
+
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+
+        android:hint="Artwork Title"
+
+        app:layout_constraintTop_toBottomOf="@+id/textViewUploadTitle"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="16dp"
+
+        android:layout_marginStart="16dp"
+
+        android:layout_marginEnd="16dp"/>
+
+
+
+    <EditText
+
+        android:id="@+id/editTextArtworkDescription"
+
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+
+        android:hint="Artwork Description"
+
+        app:layout_constraintTop_toBottomOf="@+id/editTextArtworkTitle"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="8dp"
+
+        android:layout_marginStart="16dp"
+
+        android:layout_marginEnd="16dp"/>
+
+
+
+
+
+    <Button
+
+        android:id="@+id/buttonUploadArtwork"
+
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+
+        android:text="Upload Artwork"
+
+        app:layout_constraintTop_toBottomOf="@+id/editTextArtworkDescription"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="16dp"
+
+        android:layout_marginStart="16dp"
+
+        android:layout_marginEnd="16dp"/>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
