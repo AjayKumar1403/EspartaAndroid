@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "868276911286",
+    "project_id": "esparta-e913d",
+    "storage_bucket": "esparta-e913d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868276911286:android:f8ba0afd46a714f5be7a17",
+        "android_client_info": {
+          "package_name": "com.example.espartaandro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgBOHVlV6e3eWWGE-TH718BFMe9duyJQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
