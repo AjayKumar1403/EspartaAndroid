@@ -15,11 +15,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.esparta_android.Model.Users;
-import com.example.esparta_android.Prevalent.Prevalent;
-
-import com.example.esparta_android.HomeActivity;
-import com.example.espartaandro.R;
+import com.example.espartaandro.Model.Users;
+import com.example.espartaandro.Prevalent.Prevalent;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -29,9 +26,19 @@ import com.google.firebase.database.ValueEventListener;
 import io.paperdb.Paper;
 
 public class LoginActivity extends AppCompatActivity {
-    private EditText inputPhone, inputPassword; private Button loginButton;
-    private ProgressDialog loadingBar; private String parentDbName = "Users";
-    private CheckBox rememberMeCheckBox; private TextView notAdminLink; private TextView adminLink;
+
+    private EditText inputPhone, inputPassword;
+    private Button loginButton;
+
+    private ProgressDialog loadingBar;
+
+    private String parentDbName = "Users";
+
+    private CheckBox rememberMeCheckBox;
+
+    private TextView notAdminLink;
+    private TextView adminLink;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,6 +85,9 @@ public class LoginActivity extends AppCompatActivity {
         });
 
     }
+
+
+
     private void loginUser() {
         String phone = inputPhone.getText().toString();
         String password = inputPassword.getText().toString();
