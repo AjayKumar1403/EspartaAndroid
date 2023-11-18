@@ -71,8 +71,6 @@
         android:layout_marginTop="10dp"
         />
 
-
-
     <Button
         android:id="@+id/register_btn"
         android:layout_width="match_parent"
@@ -88,8 +86,6 @@
         android:text="Create Account"
         android:textAlignment="center"
         />
-
-
 
 
 </RelativeLayout>
